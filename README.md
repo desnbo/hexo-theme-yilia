@@ -2,13 +2,7 @@ hexo-theme-yilia
 ================
 
 Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
-崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](http://litten.me/) 查看效果。           
- 
-如果想体验手机浏览效果，可以扫一下二维码：
-
-![litten-qrcode](https://cloud.githubusercontent.com/assets/2024949/6349328/51a067fe-bc64-11e4-881c-f68050c50c28.png)
-
-—————————————————————
+崇尚简约优雅，以及极致的性能。 你可以点击 [我的博客](http://desnbo.github.io/) 查看效果。           
 
 **关于主题：**
 
@@ -31,19 +25,7 @@ Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
 1. TOC
 2. 移动端优化
              
-## 一、外观
-
-####**常规**
-
-![常规](https://cloud.githubusercontent.com/assets/2024949/19027861/92879edc-8967-11e6-8e60-7987b6507c8d.gif)
-
-####**手机**
-
-![手机](https://cloud.githubusercontent.com/assets/2024949/19027020/1c5b756a-895f-11e6-99bf-ddff9687aee0.gif)   
-
-####**ipad横竖屏切换**
-
-![ipad横竖屏切换](https://cloud.githubusercontent.com/assets/2024949/19026392/e74e1816-8957-11e6-8f08-eac9b3c8c036.gif)                    
+## 一、外观              
 
 ## 二、开发者
 
@@ -56,7 +38,7 @@ Yilia 是为 [hexo](https://github.com/tommy351/hexo) 2.4+制作的主题。
 #### 安装
 
 ``` bash
-$ git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia
+$ git clone https://github.com/desnbo/hexo-theme-yilia.git themes/yilia
 ```
 
 #### 配置
@@ -73,7 +55,6 @@ git pull
 ## 四、配置
 
 主题配置文件在主目录下的`_config.yml`，请根据自己需要修改使用。
-完整配置例子，可以参考[我的博客备份](https://github.com/litten/BlogBackup)
 
 ```
 # Header
@@ -95,7 +76,7 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  #mail: "#"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
