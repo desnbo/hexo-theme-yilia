@@ -60,10 +60,10 @@ weixin:
 # Miscellaneous
 baidu_analytics: 'cfb838bc0cdbeea6622ed505429ab9a9'
 google_analytics: false
-favicon: /favicon.png
+favicon: /assets/img/favicon.png
 
 #你的头像url
-avatar: /avatar.png
+avatar: /assets/img/avatar.png
 
 #是否开启分享
 share_jia: true
@@ -89,8 +89,14 @@ gitment: true
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
-  # 头像上面的背景颜色
-  header: '#263238'
+  # 头像上面的背景颜色或图片
+  #1. 是否统一设置: 若否,注释或设为false
+  #header: '#263238'
+  header:  false
+  # 宽屏时颜色或图片url(300*180)
+  headerbg: 'url(/assets/img/headerbg.png) center top no-repeat'
+  # 窄屏时颜色或图片url(800*140)
+  headerbg_m: 'url(/assets/img/headerbg_m.png) center top no-repeat'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 

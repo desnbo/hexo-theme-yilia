@@ -1,6 +1,6 @@
 .article-entry pre,
 .article-entry .highlight {
-  background: #272822;
+  background: #263238;
   margin: 10px 0;
   padding: 10px 10px;
   overflow: auto;
@@ -15,7 +15,7 @@
 }
 .article-entry pre,
 .article-entry code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  font-family: "Ubuntu Mono","Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
   background: #eee;
@@ -77,7 +77,7 @@
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  background: #272822;
+  background: #263238;
   padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
@@ -103,7 +103,7 @@
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #272822;
+  background: #263238;
   color: highlight-comment;
   font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;

@@ -39,7 +39,8 @@ html, body, #container {
 	min-height:100%;
 	background:#eaeaea;
 	left: 300px;
-	width: auto;
+	margin: 0 auto;
+	max-width: 72em;
 	@extend %trans;
 	&.show {
 		background: none;

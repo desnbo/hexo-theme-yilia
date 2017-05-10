@@ -144,7 +144,7 @@
         line-height: 1.4;
         text-align: center;
         font-weight: 400;
-        color: #4d4d4d;
+        color: #263238;
         background: transparent;
         opacity: 0;
         margin: 0 0 -10px -185px;
@@ -169,7 +169,7 @@
     }
 
     .tooltip-text {
-        border-bottom: 10px solid #4d4d4d;
+        border-bottom: 10px solid #263238;
         overflow: hidden;
         -webkit-transform: scale3d(0,1,1);
         transform: scale3d(0,1,1);
@@ -211,7 +211,7 @@
         position: absolute;
         pointer-events: none;
         border-color: transparent;
-        border-top-color: #4d4d4d;
+        border-top-color: #263238;
         border-width: 10px;
         margin-left: -10px;
     }
