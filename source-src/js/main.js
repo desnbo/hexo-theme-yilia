@@ -13,3 +13,4 @@ addLoadEvent(function() {
 	Share.init()
 	Viewer.init()
 })
+
