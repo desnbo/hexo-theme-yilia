@@ -9,7 +9,7 @@ function init()
          var toc = $(".toc-content");
          toc.toggle();
          if (toc.is(":hidden")) {
-             $(this).text("丨★丨 展开 丨》》");
+             $(this).text("丨★丨 展开 》》");
          } else {
              $(this).text("丨☆丨 收起  Ⅴ");
          }
