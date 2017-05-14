@@ -6,11 +6,14 @@ import './report'
 import Viewer from './viewer'
 // 分享
 import Share from './share'
+// 目录
+import Toc from './toc'
 
 import {addLoadEvent} from './util'
 
 addLoadEvent(function() {
 	Share.init()
 	Viewer.init()
+	Toc.init()
 })
 

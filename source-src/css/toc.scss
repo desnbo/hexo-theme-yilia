@@ -1,0 +1,31 @@
+/*toc begin*/
+.toc-article {
+    background: #eee;
+    margin: 0 0 0 0.2em;
+    padding: 1em;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 1.5em;
+    font-size: 1em;
+    float: right;
+    max-width: 32%;
+    white-space: nowrap;
+    overflow: hidden; 
+
+    strong {
+        padding: 0.3em 0;
+    }
+    ol,
+    li {
+        margin: 0 0 0 0.2em;
+        list-style-type: none;
+    }
+    ol li:before {
+        display: none;
+    }
+    .toc-child {
+        margin-left: 1em;
+    }
+}
+
+/* toc end*/

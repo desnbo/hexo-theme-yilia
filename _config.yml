@@ -105,6 +105,12 @@ slider:
   # 是否默认展开tags板块
   showTags: true
 
+# 文章目录toc
+# 如果配置为true, 在文章前添加 toc: false 单篇文章不生成目录
+# 如果配置为false,在文章前添加 toc: true  单篇文章生成目录
+#toc: true | false
+toc: false
+
 # 智能菜单
 # 如不需要，将该对应项置为false
 # 比如
