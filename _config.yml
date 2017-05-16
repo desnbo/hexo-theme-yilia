@@ -84,6 +84,19 @@ changyan_conf: false
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
 
+#5、gitment
+# From: https://github.com/imsun/gitment
+# Regist OAuth Application: https://github.com/settings/applications/new 
+#   id: 页面ID(#可选。默认为 location.href);  owner: GitHubID;  repo: 存储评论的repo;  
+#   client_id: '你的 client ID';  client_secret: '你的 client secret' 
+gitment:
+  enable: true
+  #id: ''
+  owner: 'desnbo'  
+  repo: 'gitment' 
+  client_id: '10122bbbe4e6d113e3f7'
+  client_secret: '5a4bc4b137cdf1a56cf2322153ffeb8e7070c0fd'
+
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色或图片
