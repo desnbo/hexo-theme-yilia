@@ -6,6 +6,7 @@
 	transition:all .2s ease-in;
 	height:100%;
 	z-index: 999;
+	box-shadow: 0 0 5px 2px #9BACB3;
 	&.show {
 		@extend %shadow;
 	}
@@ -13,6 +14,7 @@
 		width: 100%;
 		height: 180px;
 		position: absolute;
+		box-shadow: 0 0 64px 2px #B5C2C7 inset;
 	}
 
 	.intrude-less {

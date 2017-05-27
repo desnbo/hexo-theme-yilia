@@ -1,6 +1,6 @@
 <% var defaultBg = '#263238'; %>
 <!-- <div class="overlay" style="background: url('/assets/img/sidebg.png') center top no-repeat; %>"></div> -->
- <div class="overlay" style="background: <%= theme.style && theme.style.header ? theme.style.header : theme.style && !theme.style.header && theme.style.headerbg ? theme.style.headerbg: defaultBg %> ; background-size: cover;"></div>
+ <div class="overlay" style="background: <%= theme.style && theme.style.header_wide ? theme.style.header_wide : theme.style && theme.style.header  ?  theme.style.header : defaultBg %> ; background-size: cover;"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">

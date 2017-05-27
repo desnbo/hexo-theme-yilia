@@ -3,15 +3,15 @@
 function init()
  {
  	$(".js-toggle-toc").css('color', '#FF4081');
-     $(".js-toggle-toc").text("丨☆丨 收起  Ⅴ");
+     $(".js-toggle-toc").text("丨☆丨+ Ⅴ ++ [-]");
  
      $(".js-toggle-toc").click(function(){
          var toc = $(".toc-content");
          toc.toggle();
          if (toc.is(":hidden")) {
-             $(this).text("丨★丨 展开 》》");
+             $(this).text("‖★‖-》- - [+]");
          } else {
-             $(this).text("丨☆丨 收起  Ⅴ");
+             $(this).text("丨☆丨+ Ⅴ ++ [-]");
          }
          return false;
      });

@@ -1,10 +1,10 @@
-# Header
+## Header
 
 menu:
   主页: /
   相册: "#"
   全部文章: /archives/
-# SubNav
+## SubNav
 subnav:
   github: "https://github.com/desnbo"
   weibo: "http://weibo.com/u/3517404784"
@@ -21,35 +21,33 @@ subnav:
   #twitter: "#"
   #linkedin: "#"
 
-# 标签云
+## 标签云
 tagcloud: true
 
 rss: /atom.xml
 
 
-# 是否需要修改 root 路径
+## 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
-# 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
+# 请将 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
 root: /
 
-# Content
-
+## Content
 # 文章太长，截断按钮文字
 excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
-mathjax: false
+mathjax: true
 # 是否在新窗口打开链接
 open_in_new: false
+# 开启fancybox效果
+fancybox: true 
 
-fancybox: true #开启fancybox效果
-
-# 打赏
-# 请在需要打赏的文章的md文件头部，设置属性reward: true
-
+## 打赏
+# 在需要打赏的文章的md文件头部，设置属性reward: true
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 1
+reward_type: 2
 # 打赏wording
 reward_wording: 'Just for fun~'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -57,38 +55,38 @@ alipay:
 # 微信二维码图片地址
 weixin: 
 
-# Miscellaneous
+## Miscellaneous
 baidu_analytics: 'cfb838bc0cdbeea6622ed505429ab9a9'
 google_analytics: false
-favicon: /assets/img/favicon.png
+favicon: '/assets/img/favicon.png'
 
-#你的头像url
-avatar: /assets/img/avatar.png
+# 你的头像url
+avatar: '/assets/img/avatar.png'
 
-#是否开启分享
+# 是否开启分享
 share_jia: true
 
-#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus 5. gitment 
-#不需要使用某项，直接设置值为false，或注释掉
+### 评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus 5. gitment 
+## 不需要使用某项，直接设置值为false，或注释掉
 
-#1、多说
+## 1、多说
 duoshuo: false
 
-#2、网易云跟帖
+## 2、网易云跟帖
 wangyiyun: false
 
-#3、畅言
+## 3、畅言
 changyan_appid: false
 changyan_conf: false
 
-#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
+## 4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
 
-#5、gitment
+## 5、gitment
 # From: https://github.com/imsun/gitment
 # Regist OAuth Application: https://github.com/settings/applications/new 
-#   id: 页面ID(#可选。默认为 location.href);  owner: GitHubID;  repo: 存储评论的repo;  
-#   client_id: '你的 client ID';  client_secret: '你的 client secret' 
+#  id: 页面ID(可选。默认为 location.href); owner: GitHubID;  repo: 存储评论的repoName;  
+#  client_id: 'ur client ID';  client_secret: 'ur client secret' 
 gitment:
   enable: true
   #id: ''
@@ -99,29 +97,28 @@ gitment:
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
-  # 头像上面的背景颜色或图片
-  #1. 是否统一设置: 若否,注释或设为false
-  #header: '#263238'
-  header:  false
-  # 宽屏时颜色或图片url(300*180)
-  headerbg: 'url(/assets/img/headerbg.png) center top no-repeat'
-  # 窄屏时颜色或图片url(800*140)
-  headerbg_m: 'url(/assets/img/headerbg_m.png) center top no-repeat'
+  # 头像上面的背景颜色或图片默认值
+  header: '#263238'
+  # 宽屏bg_size(300*180)
+  header_wide: 'url(/assets/img/headerbg.png) center top no-repeat'
+  # 窄屏bg_size(800*140)
+  header_narrow: 
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+  slider: 'linear-gradient(200deg,#9BACB3,#B5C2C7)'
 
 # slider的设置
 slider:
   # 是否默认展开tags板块
   showTags: true
 
-# 文章目录toc
+## table of contents
 # 如果配置为true, 在文章前添加 toc: false 单篇文章不生成目录
-# 如果配置为false,在文章前添加 toc: true  单篇文章生成目录
-#toc: true | false
+# 如果配置为false,在文章前添加 toc: true  单篇文章会生成目录
+# toc: true | false
 toc: false
 
-## pace loading 加载特效 
+## pace loading 
+# 页面顶部加载时特效
 pace: true
 
 # 智能菜单
